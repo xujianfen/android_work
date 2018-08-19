@@ -1,0 +1,60 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.1"
+    /**
+     *
+     * 禁止gradle严格检查图片合法性
+     *
+     */
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+    defaultConfig {
+        applicationId "com.test.banner"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+allprojects {
+    repositories {
+        maven {
+            url "https://jitpack.io"
+        }
+    }
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':banner')
+    //    compile 'com.youth.banner:banner:+'
+    compile files('libs/afinal_0.5.1_bin.jar')
+    compile project(':okhttputils')
+    compile files('libs/android-async-http-1.4.6.jar')
+    compile files('libs/gradle-wrapper.jar')
+    compile 'com.android.support:appcompat-v7:25.0.1'
+    compile 'com.android.support:recyclerview-v7:25.0.1'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.facebook.fresco:fresco:0.12.0'
+    compile 'com.zxy.android:recovery:0.0.8'
+    compile 'com.android.support:design:25.0.1'
+    compile 'com.squareup.okhttp:okhttp:2.0.0'
+    compile 'com.jakewharton:butterknife:5.1.1'
+    compile 'com.squareup.picasso:picasso:2.3.2'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'jp.wasabeef:glide-transformations:2.0.1'
+    compile 'com.android.support:support-v4:25.0.1'
+    testCompile 'junit:junit:4.12'
+    compile project(':opendanmaku')
+    compile files('libs/eventbus-3.0.0.jar')
+    compile files('libs/eventbus-3.0.0-sources.jar')
+    compile project(':pullToRefreshListFragment')
+    compile project(':pullToRefreshViewPager')
+}

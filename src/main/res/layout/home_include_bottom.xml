@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FrameLayout android:layout_alignParentBottom="true" android:id="@+id/include_framelayout" android:background="@color/blue_color" android:layout_height="wrap_content" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<RelativeLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="wrap_content">
+
+<ImageView android:id="@+id/home_middle_image" android:layout_height="wrap_content" android:layout_width="100dp" android:text="中间" android:src="@mipmap/ic_home_true" android:layout_weight="1" android:layout_centerHorizontal="true"/>
+
+<ImageView android:id="@+id/home_right_image" android:layout_height="wrap_content" android:layout_width="100dp" android:text="右边" android:src="@mipmap/ic_right_false" android:layout_weight="1" android:layout_alignParentRight="true"/>
+
+<ImageView android:id="@+id/home_left_image" android:layout_height="wrap_content" android:layout_width="100dp" android:src="@mipmap/ic_left_false" android:layout_weight="1" android:layout_alignParentLeft="true"/>
+
+</RelativeLayout>
+
+</FrameLayout>

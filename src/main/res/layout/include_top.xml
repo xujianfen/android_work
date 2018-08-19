@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FrameLayout android:id="@+id/include_framelayout" android:background="@color/blue_color" android:layout_alignParentTop="true" android:layout_height="wrap_content" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_chapter_attention"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary">
+
+
+    </android.support.v7.widget.Toolbar>
+   </FrameLayout>

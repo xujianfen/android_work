@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_multiFileUpload"
+        android:icon="@mipmap/ic_menu_upload1"
+        android:title="webSearch"
+        app:showAsAction="ifRoom|withText"
+        />
+    <item android:id="@+id/action_websearch"
+        android:icon="@mipmap/ic_finish"
+        android:title="webSearch"
+        app:showAsAction="always"
+        />
+
+</menu>

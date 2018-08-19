@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.test.banner">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.test.right.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.login.LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.test.left.userview.UserViewActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.test.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name="com.test.middle.AttentionChapterActivity"
+            android:label="@string/title_activity_attention"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.parsonal.Parsonal"
+            android:label="@string/title_activity_parsonal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.add_attention.AttentionAcitvity"
+            android:label="@string/title_activity_attention_acitvity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name="com.add_attention.AddAttention"
+            android:label="@string/title_activity_add_attention"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.register.Register"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

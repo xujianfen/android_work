@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+<include android:id="@+id/include_framelayout" layout="@layout/include_top"/>
+
+<TextView  android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/login_tv_name" android:textSize="30dp" android:layout_marginTop="20dp" android:layout_marginLeft="10dp" android:text="@string/login_name" android:layout_below="@+id/include_framelayout"/>
+
+<EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/login_ed_name" android:ems="10" android:layout_toRightOf="@+id/login_tv_name" android:layout_alignBottom="@+id/login_tv_name" android:layout_alignTop="@+id/login_tv_name"/>
+
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/login_tv_password" android:textSize="30dp" android:layout_marginTop="20dp" android:layout_marginLeft="10dp" android:text="@string/login_password" android:layout_below="@+id/login_tv_name"/>
+
+<EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/login_ed_password" android:ems="10" android:layout_toRightOf="@+id/login_tv_password" android:layout_alignBottom="@+id/login_tv_password" android:layout_alignTop="@+id/login_tv_password"/>
+
+    <ProgressBar
+        style="?android:progressBarStyleHorizontal"
+        android:layout_gravity="bottom"
+        android:id="@+id/mProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/login_button_name" android:textSize="30dp" android:text="登陆"
+        android:layout_alignBaseline="@+id/register_button_name"
+        android:layout_alignBottom="@+id/register_button_name"
+        android:layout_toRightOf="@+id/login_tv_password"
+        android:layout_toEndOf="@+id/login_tv_password" />
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/register_button_name" android:textSize="30dp" android:text="注册"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/login_ed_name"
+        android:layout_alignEnd="@+id/login_ed_name"
+        android:layout_marginRight="31dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="167dp" />
+
+</RelativeLayout>

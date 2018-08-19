@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView android:layout_height="100dp" android:layout_width="80dp" android:background="@mipmap/ic_hone_new_1" android:layout_marginTop="15dp" android:layout_marginLeft="15dp" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:id="@+id/home_attention_im"/>
+
+
+    <ImageView android:layout_height="20dp" android:layout_width="20dp" android:id="@+id/home_attention_top_im" android:src="@mipmap/ic_user_delete" android:layout_alignRight="@+id/home_attention_im" android:layout_alignTop="@+id/home_attention_im"/>
+
+    <TextView android:layout_height="23dp" android:layout_width="80dp" android:text="鬼刀传承"  android:textSize="17dp"
+      android:gravity="center"
+        android:id="@+id/home_attention_tv"
+        android:layout_below="@+id/home_attention_im"
+        android:layout_alignLeft="@+id/home_attention_im"
+        android:layout_alignStart="@+id/home_attention_im"
+        android:layout_marginTop="2dp"
+      />
+
+
+</RelativeLayout>

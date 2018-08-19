@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout android:layout_height="fill_parent" android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <include android:id="@+id/include_home_left_top" layout="@layout/include_home_left_top"/>
+
+
+    <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/listLinearLayout" android:orientation="vertical" android:layout_centerVertical="true" android:layout_below="@+id/include_home_left_top" android:background="@color/recoveryTextColor">
+
+        <android.support.v7.widget.RecyclerView android:id="@+id/home_left_re" android:layout_height="fill_parent" android:layout_width="fill_parent" android:scrollbars="vertical" android:drawSelectorOnTop="false"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

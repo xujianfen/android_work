@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/main_color</color>
+    <color name="colorPrimaryDark">@color/main_color</color>
+    <color name="colorAccent">@color/main_color</color>
+
+    <color name="recoveryColorPrimary">@color/main_color</color>
+    <color name="recoveryColorPrimaryDark">@color/main_color</color>
+    <color name="recoveryColorAccent">#BDBDBD</color>
+    <color name="recoveryTextColor">#FFFFFF</color>
+    <color name="blue_color">#82FFFF</color>
+    <color name="while_color">#00008B</color>
+    <color name="while1_color">#22000000</color>
+    <color name="main_color">#5CB85C</color>
+    <color name="bg_color">#FF666666</color>
+    <color name="my_item_color">#ff0000</color>
+    <color name="default_bg">#979b9a</color>
+
+        <color name="f10">#e0000000</color>
+        <color name="f9">#FF666666</color>
+        <color name="f8">#979b9a</color>
+        <color name="f7">#ACACAC</color>
+        <color name="f6">#BDBDBD</color>
+        <color name="f5">#22000000</color>
+        <color name="f4">#08000000</color>
+        <color name="f3">#ffffff</color>
+        <color name="f2">#FFFFFF</color>
+        <color name="f1">#00000000</color>
+    <color name="y1">#ffff99</color>
+    <color name="r1">#ffcccc</color>
+    <color name="r2">#FF6666</color>
+    <color name="g1">#ccff99</color>
+</resources>

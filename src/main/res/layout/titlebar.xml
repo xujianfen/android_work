@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="50dp" android:id="@+id/titlebar" android:background="@android:color/background_dark" android:gravity="center" android:orientation="horizontal">
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tv_title" android:text="尚硅谷知识库" android:textColor="@android:color/white" android:textSize="20sp"/>
+
+</LinearLayout>
